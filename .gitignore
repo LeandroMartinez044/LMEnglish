@@ -1,0 +1,40 @@
+# Compiled Go binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.test.out
+*.prof
+
+# Go build artifacts and temporary files
+/_obj/
+/_test/
+/_testmain.go
+
+# Go vendored packages (if using vendoring)
+/vendor/
+
+# Go modules cache (if using Go modules)
+/go.sum
+
+# Editor and IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Ignore environment-specific config files (if applicable)
+.env
+
+# Ignore binary files and large data (if applicable)
+*.bin
+*.dat
+*.zip
+*.tar.gz
+
+#
+.DS_Store
